@@ -5,15 +5,15 @@ const decorate2 = document.getElementById("decorate2")
 const decorate3 = document.getElementById("decorate3")
 
 function randomSize() {
-    return Math.floor(Math.random() * (400 - 100 + 1) - 100);
+    return Math.floor(Math.random() * (400 - 200 + 1) - 100);
 }
 
 function randomX() {
-    return Math.floor(Math.random() * (30-(-30)+1) - 30);
+    return Math.floor(Math.random() * (20-(-20)+1) - 30);
 }
 
 function randomY(){
-    return Math.floor(Math.random() * (30-(-30)+1) - 30);
+    return Math.floor(Math.random() * (20-(-20)+1) - 30);
 }
 
 decorate1.style.height = randomSize() + "px"
